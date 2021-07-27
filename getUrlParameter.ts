@@ -1,4 +1,4 @@
-
+//@ts-nocheck
 export default function getUrlParameter(name, url) {
     if (!url) url = window.location.href;
   
