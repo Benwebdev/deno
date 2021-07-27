@@ -12,3 +12,4 @@ export default function getUrlParameter(name, url) {
   
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+//edit
