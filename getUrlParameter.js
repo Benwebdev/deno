@@ -1,4 +1,4 @@
-export function getUrlParameter(name, url) {
+export default function getUrlParameter(name, url) {
     if (!url) url = window.location.href;
   
     name = name.replace(/[\]]/g, "\\$&");
